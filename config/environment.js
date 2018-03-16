@@ -6,7 +6,8 @@ module.exports = function(environment) {
     modulePrefix: 'mattjmorrison-ember',
     locationType: 'none',
     environment,
-    rootURL: '/mattjmorrison-ember',
+    baseURL: '/mattjmorrison-ember',
+    rootURL: '/',
     EmberENV: {
       FEATURES: {
       },
