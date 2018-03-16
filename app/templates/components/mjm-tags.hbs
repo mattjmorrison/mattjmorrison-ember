@@ -1,1 +1,14 @@
-<h1>Tags</h1>
+<ul class="nav nav-pills">
+{{#each sortedTags as |tag|}}
+<li class="{{if tag.active "active"}}"><a href="#" {{action "selectTag" tag}}>{{tag.name}} ({{tag.articles.length}})</a></li>
+{{/each}}
+</ul>
+
+{{#if currentTag}}
+  <ul class="nav nav-tabs nav-stacked">
+  {{#each currentArticles as |article|}}
+    <li><a href="#">{{article.date}}<strong><i class="icon-chevron-right"></i> {{article.title}}</strong></a></li>
+  {{/each}}
+  </ul>
+{{/if}}
+
