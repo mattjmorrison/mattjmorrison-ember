@@ -3,6 +3,9 @@
 
 module.exports = function(environment) {
   let ENV = {
+    fingerprint: {
+      enabled: false
+    },
     modulePrefix: 'mattjmorrison-ember',
     locationType: 'none',
     environment,
