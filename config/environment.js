@@ -7,7 +7,7 @@ module.exports = function(environment) {
     locationType: 'none',
     environment,
     baseURL: '/mattjmorrison-ember',
-    rootURL: '/',
+    rootURL: '/mattjmorrison-ember',
     EmberENV: {
       FEATURES: {
       },
@@ -26,7 +26,7 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
-    ENV.rootURL = '/mattjmorrison/mattjmorrison-ember';
+    ENV.rootURL = '/mattjmorrison-ember';
     ENV.locationType = 'hash';
   }
 
