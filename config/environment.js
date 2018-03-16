@@ -27,6 +27,7 @@ module.exports = function(environment) {
 
   if (environment === 'production') {
     ENV.rootURL = '/mattjmorrison/mattjmorrison-ember';
+    ENV.locationType = 'hash';
   }
 
   return ENV;
