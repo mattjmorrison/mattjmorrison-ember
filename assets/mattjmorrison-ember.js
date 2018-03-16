@@ -298,6 +298,6 @@ catch(err) {
 });
 
 if (!runningTests) {
-  require("mattjmorrison-ember/app")["default"].create({"name":"mattjmorrison-ember","version":"0.0.0+dad09999"});
+  require("mattjmorrison-ember/app")["default"].create({"name":"mattjmorrison-ember","version":"0.0.0+cb73ea12"});
 }
 //# sourceMappingURL=mattjmorrison-ember.map
