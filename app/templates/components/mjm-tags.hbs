@@ -1,7 +1,7 @@
 <ul class="nav nav-pills">
-{{#each sortedTags as |tag|}}
-<li class="{{if tag.active "active"}}"><a href="#" {{action "selectTag" tag}}>{{tag.name}} ({{tag.articles.length}})</a></li>
-{{/each}}
+  {{#each sortedTags as |tag|}}
+    <li class="{{if tag.active "active"}}"><a href="#" {{action "selectTag" tag}}>{{tag.name}} ({{tag.articles.length}})</a></li>
+  {{/each}}
 </ul>
 
 {{#if currentTag}}
@@ -11,4 +11,3 @@
   {{/each}}
   </ul>
 {{/if}}
-
